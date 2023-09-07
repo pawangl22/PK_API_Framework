@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="11" failures="3" name="testrunner.TestRunner" time="13.031" errors="0" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="19+36-2238"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Workspace\PK_API_Framework\PK_API_Framework"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Workspace\PK_API_Framework\PK_API_Framework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="19+36-2238"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\DELL\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Workspace\PK_API_Framework\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6114826464455967261.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-19/bin/server;C:/Program Files/Java/jdk-19/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-19\bin;;C:\Windows\System32;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="63.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\DELL"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="19"/>
+    <property name="user.name" value="DELL"/>
+    <property name="java.class.path" value="C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.601.20220820-1147\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="19"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Workspace\PK_API_Framework\PK_API_Framework\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-09-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Create repositories" name="Valid org [path param] valid name, valid token" time="5.789">
+    <failure message="1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;422&gt;.
+" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;422&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at stepdefinitions.StepDefinition.validateStatusCodeIs(StepDefinition.java:89)
+	at ✽.validate status code is 201(file:///D:/Workspace/PK_API_Framework/PK_API_Framework/src/test/resources/features/GitHubCreateRepo.feature:9)
+</failure>
+    <system-out>============ Before All Scenarios =============
+=============== Before any scenarios ==============
+Executing Given
+Executing When
+Request method:	POST
+Request URI:	https://api.github.com/orgs/orgpawanapivalidation/repos
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	org=orgpawanapivalidation
+Headers:		Authorization=Bearer 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
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+java.io.FileInputStream@5f117b3d
+Executing Then
+{
+    &quot;message&quot;: &quot;Repository creation failed.&quot;,
+    &quot;errors&quot;: [
+        {
+            &quot;resource&quot;: &quot;Repository&quot;,
+            &quot;code&quot;: &quot;custom&quot;,
+            &quot;field&quot;: &quot;name&quot;,
+            &quot;message&quot;: &quot;name already exists on this account&quot;
+        }
+    ],
+    &quot;documentation_url&quot;: &quot;https://docs.github.com/rest/reference/repos#create-an-organization-repository&quot;
+}
+=============== After any scenarios ==============
+</system-out>
+  </testcase>
+  <testcase classname="Create repositories" name="Validating negative scenarios #1" time="1.64">
+    <failure message="
+Expected: &quot;repo_api_May16_00&quot;
+     but: was null" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &quot;repo_api_May16_00&quot;
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at utils.CommonUtils.validateCreateResponsePOJO(CommonUtils.java:48)
+	at stepdefinitions.StepDefinition.validateWithValue(StepDefinition.java:79)
+	at ✽.validate &quot;name,description&quot; with value &quot;repo_api_May16_00,Testing is in progress&quot;(file:///D:/Workspace/PK_API_Framework/PK_API_Framework/src/test/resources/features/GitHubCreateRepo.feature:18)
+</failure>
+    <system-out>=============== Before any scenarios ==============
+Executing Given
+Executing When
+Request method:	POST
+Request URI:	https://api.github.com/orgs/pkgl/repos
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	org=pkgl
+Headers:		Authorization=Bearer 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
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;name&quot;: &quot;repo_api_May16_00&quot;,
+    &quot;description&quot;: &quot;Testing is in progress&quot;,
+    &quot;privateVal&quot;: false
+}
+Executing Then
+{
+    &quot;message&quot;: &quot;Not Found&quot;,
+    &quot;documentation_url&quot;: &quot;https://docs.github.com/rest/reference/repos#create-an-organization-repository&quot;
+}
+=============== After any scenarios ==============
+</system-out>
+  </testcase>
+  <testcase classname="Create repositories" name="Validating negative scenarios #2" time="0.552">
+    <failure message="1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;422&gt;.
+" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;422&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at stepdefinitions.StepDefinition.validateStatusCodeIs(StepDefinition.java:89)
+	at ✽.validate status code is 201(file:///D:/Workspace/PK_API_Framework/PK_API_Framework/src/test/resources/features/GitHubCreateRepo.feature:17)
+</failure>
+    <system-out>=============== Before any scenarios ==============
+Executing Given
+Executing When
+Request method:	POST
+Request URI:	https://api.github.com/orgs/orgpawanapivalidation/repos
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	org=orgpawanapivalidation
+Headers:		Authorization=Bearer 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
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;name&quot;: &quot;repo_api_May17_10&quot;,
+    &quot;description&quot;: &quot;Testing is in progress&quot;,
+    &quot;privateVal&quot;: true
+}
+Executing Then
+{
+    &quot;message&quot;: &quot;Repository creation failed.&quot;,
+    &quot;errors&quot;: [
+        {
+            &quot;resource&quot;: &quot;Repository&quot;,
+            &quot;code&quot;: &quot;custom&quot;,
+            &quot;field&quot;: &quot;name&quot;,
+            &quot;message&quot;: &quot;name already exists on this account&quot;
+        }
+    ],
+    &quot;documentation_url&quot;: &quot;https://docs.github.com/rest/reference/repos#create-an-organization-repository&quot;
+}
+=============== After any scenarios ==============
+</system-out>
+  </testcase>
+  <testcase classname="List organization repositories" name="Valid org in path param" time="1.49"/>
+  <testcase classname="List organization repositories" name="Invalid org in path param" time="0.288"/>
+  <testcase classname="List organization repositories" name="Valid org in path param with per_page query param" time="0.638"/>
+  <testcase classname="List organization repositories" name="Valid org in path param with type query param and token #1" time="0.467"/>
+  <testcase classname="List organization repositories" name="Valid org in path param with type query param and token #2" time="0.459"/>
+  <testcase classname="List organization repositories" name="List org repo scenarios #1" time="0.771"/>
+  <testcase classname="List organization repositories" name="List org repo scenarios #2" time="0.395"/>
+  <testcase classname="List organization repositories" name="List org repo scenarios #3" time="0.542"/>
+</testsuite>
